@@ -1,0 +1,23 @@
+
+header {
+    background-image: url("../images/DC\ Marvel.jpg");
+    height: 140px;
+}
+
+body {
+    background: url("../images/Movie\ Background.jpg") top / cover no-repeat;
+    color: royalblue;
+}
+
+h1{color: seagreen;}
+
+footer {
+    background-image: url("../images/DC\ Marvel.jpg");
+    height: 55px;
+}
+
+footer em,
+strong {
+    background: black;
+    color: gold;
+}
