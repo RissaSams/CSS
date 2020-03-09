@@ -1,0 +1,28 @@
+#courses tr:nth-child(even) {
+    background-color: lightseagreen;
+}
+
+#courses tr:nth-child(odd) {
+    background-color: lightsteelblue;
+}
+
+#courses tr:hover {
+    background-color: lightslategrey;
+}
+
+#courses {
+    border: dashed 1px;
+}
+
+#courses td {
+    border: dashed 1px;
+}
+
+#courses th {
+    border: dashed 1px;
+    background-color: aquamarine;
+}
+
+body {
+    background-color: grey;
+}

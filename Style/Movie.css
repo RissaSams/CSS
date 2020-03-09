@@ -1,17 +1,37 @@
-
-header {
+#header {
     background-image: url("../images/DC\ Marvel.jpg");
     height: 140px;
+    display: grid;
+    grid-template-columns: auto;
+    border: 3px solid red;
 }
 
 body {
     background: url("../images/Movie\ Background.jpg") top / cover no-repeat;
+    font-family: Yeon Sung;
     color: royalblue;
 }
 
-h1{color: seagreen;}
+a {
+    text-decoration: none;
+    color: seagreen;
+}
+
+a:hover {
+    color: seashell;
+}
+
+#header div {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Trade Winds;
+    font-size: 24pt;
+    color: gold;
+    align-self: center;
+}
 
 footer {
+    text-align: center;
     background-image: url("../images/DC\ Marvel.jpg");
     height: 55px;
 }
